@@ -1,0 +1,7 @@
+.cell{
+	padding: 5px;
+	border: 1px solid silver;
+}
+.cell.selected {
+	background-color: red;
+}
