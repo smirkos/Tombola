@@ -1,10 +1,10 @@
 {
   "name": "Tombola",
-  "description": "The best project ever.",
+  "description": "Una semplice tombola per passare una bella serata con amici e parenti.",
   "version": "0.1.0",
   "homepage": "https://github.com/mirko/Tombola",
   "author": {
-    "name": "Mirko Squadrani",
+    "name": "smirkos",
     "email": "msquadrani@gmail.com"
   },
   "repository": {
@@ -16,8 +16,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/mirko/Tombola/blob/master/LICENSE-MIT"
+      "type": "GNU V2",
+      "url": "https://github.com/mirko/Tombola/blob/master/LICENSE"
     }
   ],
   "main": "lib/Tombola",
