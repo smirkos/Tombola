@@ -1,7 +1,68 @@
-.cell{
-	padding: 5px;
-	border: 1px solid silver;
+/**
+* Tombola
+* @author: Mirko Squadrani
+*/
+
+.page-header{ margin-top: 20px; }
+#tabellone{
+	border-right: 1px solid #eee;
 }
-.cell.selected {
-	background-color: red;
+#tabellone_info .cell:nth-child(n), #tabellone .cell:nth-child(n){ border: 1px solid red; }
+/*.cell:nth-child(10){ background-color: rgba(250, 220, 5, 0.75); }*/
+#tabellone .cell{
+	padding: 3px;
+	margin: 3px 15px;
+	border: 1px solid silver;
+	background-color: #fff;
+	width: 70px;
+	height: auto;
+	/*border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;*/
+}
+#tabellone .cell span{
+	font-size: 40px;	
+	/*position: relative;
+	top:auto;*/
+}
+
+#tabellone .cell.selected, #tabellone_info .cell.selected {
+	background-color: rgba(250, 220, 5, 0.75);
+	color: red;
+	
+}
+
+#tabellone_info{
+	text-align: center;
+}
+#tabellone_info .cell span{
+	font-size: 25px;
+	/*position: relative;
+	top:auto;*/
+}
+#tabellone_info .cell{
+	padding: 3px;
+	margin: 3px auto;
+	border: 1px solid silver;
+	background-color: #fff;
+	width: 70px;
+	height: auto;
+	/*border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;*/
+}
+
+#dlgnotifiche{
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	width: auto;
+	background-color: rgba(250, 220, 5, 0.75);
+	/*border: 1px dotted #000;*/
+	display: none;
+}
+#dlgnotifiche span{
+	text-align: center;
+	font-size:250px;
+	color: red;
 }
