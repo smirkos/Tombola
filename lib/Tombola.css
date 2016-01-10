@@ -66,3 +66,8 @@
 	font-size:250px;
 	color: red;
 }
+
+#head-title:hover{
+	border: 1px solid #eee;
+	cursor: pointer;
+}
